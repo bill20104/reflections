@@ -1,8 +1,19 @@
 How did viewing a diff between two versions of a file help you see the bug that
 was introduced?
 
-    Fill in your answer here
+	Viewing a diff between two versions let me
+    find a bug easier, because we know 
+    bugs must be inside the change part of versions.
 
+    When I find a bug, I can checkout each commit
+    from most recent one to oldest one, run it,
+    and the first commit which didn't have the bug,
+    we know, its previous commit is 
+    the commit which first introduced the bug.
+    Then we can compare the difference 
+    between the two commits, we can find 
+    the bug.
+    
 How could having easy access to the entire history of a file make you a more
 efficient programmer in the long term?
 
